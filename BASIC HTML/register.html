@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Register Form</h2> 
+   <form action="/submit"method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required /><br / ><br />
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required /><br / ><br />
+<label for="phone no.">Phone no.:</label>
+    <input type="text" id="phone no." name="phone no." required /><br / ><br />
+    <label for="semester">Semester:</label>
+    <input type="text" id="semester" name="semester" required /><br / ><br />
+
+  <h2>Select Gender</h2>
+    <form action="/submit" method="POST">
+        <label for="male">Male</label>
+        <input type="radio"id="male" name="gender" value="male"><br>
+        <label for="female">FEMALE</label>
+        <input type="radio"id="female" name="gender" value="female"><br><br>
+        
+        <h2>Select a Branch</h2>
+        <form action="/submit" method="POST">
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch">
+                <option value="CSE">CSE</option>
+                <option value="ISE">ISE</option>
+                <option value="ALML">AIML</option>
+            </select><br /><br />
+            <input type="submit" value="sumbit">
+            </form>
+
+
+    </form>
+</body>
+</html>
